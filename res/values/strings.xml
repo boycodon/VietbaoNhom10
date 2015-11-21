@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VIỆT BÁO</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="noidung">Nội dung</string>
+	<string name="tieude">Tiêu đề</string>
+	<string name="thoigian">Thời gian</string>
+	<string name="thietlap">Thiết lập</string>
+	<string name="chedobanngay">Chế độ ban ngày</string>
+	<string name="chedobandem">Chế độ ban đêm</string>
+	<string name="english">English</string>
+	<string name="vietnam">Vietnamese</string>
+	<string name="sanpham">Sản phẩm</string>
+	<string name="dieukhoan">Điều khoản</string>
+	<string name="thongtin">Thông tin</string>
+	<string name="phienban">Phiên bản</string>
+</resources>
