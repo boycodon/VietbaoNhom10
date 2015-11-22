@@ -34,7 +34,7 @@ public class ChuyenMucActivity extends Fragment {
 			Bundle savedInstanceState) {
 
 		View rootView = inflater.inflate(R.layout.fragment_chuyenmuc,container, false);
-		// them linkvieo
+		// them linkvieo;
 		createOrOpentDB();
 		batdongsang = (ImageView) rootView.findViewById(R.id.imbatdongsan);
 		bongda = (ImageView) rootView.findViewById(R.id.imbongda);
