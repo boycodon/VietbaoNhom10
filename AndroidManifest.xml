@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fpt_vietbao"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name" 
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/ic_launcher"
+        >
+        <activity android:name="com.example.fpt_vietbao.MainActivity">
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.KhoiDongAcitivity"
+            android:theme="@android:style/Theme.Holo.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDGiaoDucActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDGiaoDucActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDGiaoDucActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDBongDaActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDBongDaActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDBongDaActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDBatDonSanActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDBatDonSanActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDBatDonSanActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDKHCNActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDKHCNActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDKHCNActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDKHTNActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDKHTNActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDKHTNActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDKinhTeActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDKinhTeActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDKinhTeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDPhapLuatActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDPhapLuatActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDPhapLuatActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDSucKhoeActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDSucKhoeActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDSucKhoeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDTheGioiAnhActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDTheGioiAnhActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDTheGioiAnhActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDVanHoaActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDVanHoaActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDVanHoaActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDXaHoiActivity"
+            android:parentActivityName="com.example.fpt_vietbao.NDXaHoiActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDXaHoiActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.NDTheGioi"
+            android:parentActivityName="com.example.fpt_vietbao.NDTheGioi"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.NDTheGioi" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.HienThiWeb"
+            android:parentActivityName="com.example.fpt_vietbao.HienThiWeb"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.HienThiWeb" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.AboutActivity"
+            android:parentActivityName="com.example.fpt_vietbao.AboutActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.AboutActivity" />
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.PhienBanActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar">
+           
+        </activity>
+        <activity
+            android:name="com.example.fpt_vietbao.LoginActivity"
+            android:parentActivityName="com.example.fpt_vietbao.LoginActivity"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fpt_vietbao.LoginActivity" />
+        </activity>
+    </application>
+
+</manifest>
