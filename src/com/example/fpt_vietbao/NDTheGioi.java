@@ -26,6 +26,7 @@ public class NDTheGioi extends Activity {
 	String noidung = "noidung";
 	String thoigian = "thoigian";
 	ListView hienthi;
+	// ndthegioi
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
